@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta google-site-verification: googlef0fcbdf065af310d.html
+    <meta name="google-site-verification" content="googlef0fcbdf065af310d" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El token de cofres en Fortnite: la guía completa - Gavrilut</title>
@@ -24,6 +24,12 @@
         .font-fortnite {
             font-family: Impact, "Arial Black", sans-serif;
             letter-spacing: 1px;
+        }
+
+        /* HEADER Y FOOTER AZUL OSCURO NO TRANSPARENTE */
+        .custom-header-dark, .custom-footer-dark {
+            background-color: #0f172a !important; /* Azul oscuro sólido */
+            opacity: 1 !important;
         }
 
         .wp-article-container {
@@ -83,8 +89,8 @@
 </head>
 <body class="min-h-screen flex flex-col justify-between antialiased">
 
-    <!-- HEADER -->
-    <header class="bg-slate-900 text-white border-b-4 border-yellow-400 sticky top-0 z-50 shadow-md">
+    <!-- HEADER AZUL OSCURO SÓLIDO -->
+    <header class="custom-header-dark text-white border-b-4 border-yellow-400 sticky top-0 z-50 shadow-md">
         <div class="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between gap-2">
             <a href="#" class="flex items-center space-x-2 shrink-0" aria-label="Página de inicio Gavrilut">
                 <span class="font-fortnite text-2xl text-yellow-400 tracking-wider">GAVRILUT</span>
@@ -131,7 +137,7 @@
                 <div>💬 <a href="#comentarios" class="wp-link">Deja un comentario</a></div>
             </div>
 
-            <!-- TEMPORIZADOR -->
+            <!-- TEMPORIZADOR CON ESTILOS INMUTABLES -->
             <section aria-label="Temporizador de cuenta atrás" class="my-6 timer-box-custom">
                 <span class="timer-title-custom">
                     ⏱️ TIEMPO RESTANTE
@@ -284,8 +290,8 @@
 
     </main>
 
-    <!-- FOOTER -->
-    <footer class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800 mt-6">
+    <!-- FOOTER AZUL OSCURO SÓLIDO -->
+    <footer class="custom-footer-dark text-slate-400 text-xs py-6 border-t border-slate-800 mt-6">
         <div class="max-w-4xl mx-auto px-4 text-center space-y-1.5">
             <p class="font-fortnite text-lg text-yellow-400">GAVRILUT</p>
             <p>© 2026 Gavrilut. Portal informativo de noticias y guías de videojuegos.</p>
